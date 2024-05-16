@@ -1,0 +1,6 @@
+input_string = input("Input integers separated by spaces: ")
+numbers = list(map(int, input_string.split()))
+largest_number = max(numbers)
+smallest_number = min(numbers)
+print(f"The largest number: {largest_number}")
+print(f"The smallest number: {smallest_number}")
